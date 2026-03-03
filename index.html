@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -5,58 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prestigio Alex | للرقي عنوان</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <div class="nav-container">
+        <nav>
             <div class="logo">
                 <img src="logo.jpg" alt="Prestigio Alex Logo">
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">الرئيسية</a></li>
-                    <li><a href="#kids">أطفالي</a></li>
-                    <li><a href="#men">رجالي</a></li>
-                    <li><a href="#others">منتجات أخرى</a></li>
-                    <li><a href="#contact">اتصل بنا</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#kids">قسم الأطفال</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <h1>Prestigio Alex</h1>
-        <p>فخامة الاختيار .. ورقي التفاصيل</p>
+        <p>فخامة الاختيار.. ورقي التفاصيل</p>
     </section>
 
-    <main class="container">
-        <h2 id="kids" class="section-title">قسم الأطفال</h2>
-        <div class="products-grid">
+    <section id="kids" class="products">
+        <h2>قسم الأطفال (سويتر شتوي)</h2>
+        <div class="product-grid">
+            
             <div class="product-card">
-                <img src="pro1.jpg" alt="منتج أطفال">
-                <h3>طقم أطفال Prestigio</h3>
-                <p>خامة ممتازة وتصميم مريح</p>
-                <span class="price">450 EGP</span>
+                <img src="kids1_1.jpg" alt="سويتر 1">
+                <img src="kids1_2.jpg" alt="سويتر 1 - صورة إضافية" style="margin-top: 10px;">
+                <h3>سويتر بريستيجيو - موديل 1</h3>
+                <p>خامة شتوية ثقيلة - متوفر بألوان متعددة</p>
+                <span class="price">EGP 200</span>
+                <a href="https://wa.me/201203230913" class="buy-btn">اطلب عبر الواتساب</a>
             </div>
-        </div>
 
-        <h2 id="men" class="section-title">قسم الرجالي</h2>
-        <div class="products-grid">
             <div class="product-card">
-                <img src="pro2.jpg" alt="منتج رجالي">
-                <h3>قميص رجالي كلاسيك</h3>
-                <p>أناقة تناسب جميع المناسبات</p>
-                <span class="price">600 EGP</span>
+                <img src="kids2_1.jpg" alt="سويتر 2">
+                <img src="kids2_2.jpg" alt="سويتر 2 - صورة إضافية" style="margin-top: 10px;">
+                <h3>سويتر بريستيجيو - موديل 2</h3>
+                <p>تصميم عصري مريح للأطفال</p>
+                <span class="price">EGP 200</span>
+                <a href="https://wa.me/201203230913" class="buy-btn">اطلب عبر الواتساب</a>
             </div>
+
+            <div class="product-card">
+                <img src="kids3_1.jpg" alt="سويتر 3">
+                <h3>سويتر بريستيجيو - موديل 3</h3>
+                <p>أناقة كلاسيكية لصغيرك</p>
+                <span class="price">EGP 200</span>
+                <a href="https://wa.me/201203230913" class="buy-btn">اطلب عبر الواتساب</a>
+            </div>
+
         </div>
-    </main>
+    </section>
 
     <footer id="contact">
-        <p>تواصلوا معنا عبر الواتساب</p>
-        <a href="https://wa.me/201234567890" class="whatsapp-btn">إرسال رسالة الآن</a>
-        <p>© 2026 Prestigio Alex</p>
+        <h3>تواصلوا معنا عبر الواتساب</h3>
+        <p>للطلب والاستفسار، اضغطي على الزر بالأسفل:</p>
+        <a href="https://wa.me/201203230913" class="wa-btn">راسلنا الآن (01203230913)</a>
+        <p class="copyright">Prestigio Alex 2026 &copy;</p>
     </footer>
 
 </body>
